@@ -22,5 +22,5 @@ module.exports = typescriptEslint.config({
 
   rules: {},
 
-  ignores: ["**/*.test.ts"]
+  ignores: ["**/*.test.ts", 'eslint.config.js', 'migrations/*.js', 'seeds/*.js', "start_postgres_docker.js", "knexfile.js"]
 });
